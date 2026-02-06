@@ -18,7 +18,7 @@ import { sampleData } from './sampleData';
 export const Example = () => {
   const [open, setOpen] = useState(false);
   const [notificationsData, setNotificationsData] = useState(sampleData);
-
+//Add a comment
   const addNewNotification = () => {
     const newNotification = {
       id: (props) => (<uuidv size={4} {...props} />)(),
